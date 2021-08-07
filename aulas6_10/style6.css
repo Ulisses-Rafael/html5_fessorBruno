@@ -1,0 +1,144 @@
+.fixFloat{
+    clear:both; /*cancela o float que está afetando os outros elementos*/
+}
+
+body{
+    margin:auto;
+    width:960px;
+    background-color: #DDD;
+    padding:0px;
+    background: url(img/fundo.gif) repeat-x;
+}
+
+#cab img{
+    float:left;
+}
+
+#social{
+    float:right;
+    margin-top: 40px;
+}
+
+#social img{
+    width: 32px;
+    height: 32px;
+}
+
+#menu{
+    float:left;
+    margin-top: 93px;
+    width: 453px;
+}
+
+#menu ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #DDD, #666);
+}
+
+#menu li{
+    height: 57px;
+    display: table-cell; /*comportamento bem semelhante a de uma tabela */
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: 1px solid #062;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+}
+
+#banner{
+    margin-top: 15px;
+}
+
+#banner img{
+    width: 960px;
+
+}
+
+#lateral{
+    float:right;
+    background: #DDD;
+    width:190px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#lateral h1{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: #000 solid 1px;
+    margin-top: 25px;
+}
+
+#lateral h2{
+    font-size: 20px;
+}
+
+#lateral p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+#main{
+    background:#EEE;
+    width:730px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#main h1{
+    font-size: 20pt;
+    border-bottom: #000 solid 1px;
+}
+
+#main h2{
+    font-size: 15px;
+}
+
+#main p{
+    text-align: justify;
+}
+
+footer{
+    background: rgb(246, 247, 248);
+    color: rgb(0, 0, 0);
+    border:rgb(156, 161, 255) solid 1px;
+}
+
+footer p{
+    display: inline-block;
+    width: 316px;
+    text-align: center;
+}
+
+details{
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+details p{
+    font-size: 20px;
+}
+
+summary{
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(84, 117, 228), rgb(227, 227, 240));
+    font:12pt Arial;
+    font-weight: bold;
+    padding: 10px 0px 0px 10px;
+}
+
+details[open] summary{
+    color: white;
+    background:linear-gradient(to bottom, rgb(9, 138, 9), rgb(131, 223, 131));
+}
+
+details[open]{
+    background:rgb(163, 240, 214);
+}

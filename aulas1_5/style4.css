@@ -1,0 +1,18 @@
+body{
+    margin:auto;
+    width:960px;
+    background-color:#FFE;
+}
+
+#cab{
+    background-color:#585;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0px 0px 20px 20px;
+    color:white;    
+}
+
+#parques{
+    background-color: #558;
+    padding: 0px 10px 10px 10px;
+    border-radius: 20px;
+}
