@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Escola de Inglês</title> <!--Aula06/7/8/9 de HTNL5-->
+</head>
+<body>
+    
+    <header id="cab">
+        <img src="img/logo.jpg">
+        <div id="social">
+            <img src="img/facebook.png">
+            <img src="img/twitter.png">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="aula6.html" target="_self">Home</a></li>
+                <li><a href="aula10_modulo.html" target="_self">Módulos</a></li>
+                <li><a href="aula11.html" target="_self">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br class="fixFloat"> <!--depois desse br tem uma quebra com a classe fixFloat, o que impede da section pegar a configuração do float-->
+
+
+    <section id="contato">
+       
+        <form  name="fContato" method="post" action="#" >
+
+                <label>Nome</label>
+                <input type="text" maxlength="50" size="60" name="fNome" autofocus required>
+                <label>Telefone de contato</label>
+                <input type="tel" maxlength="15" size="20" name="fFone" placeholder="(xx) xxxxx-xxxxx" required>
+                <label>E-mail de contato</label>
+                <input type="email" maxlength="50" size="60" name="fEmail" required>
+                <label>Cep</label>
+                <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-?\d{3}" required>
+                <label>Módulo pretende iniciar</label>
+                <input type="number" min="1" max="10" step="1" value="1" name="fModulo" required>
+                <label>Horário de início</label>
+                <input type="time" value="10:00" step="1800" name="fHorario" required>
+                <label>Cor da sua pasta</label>
+                <input type="color" name="fCor" value="#008800" required>
+                <label>Data de nascimento</label>
+                <input type="date" name="fNascimento" required>
+
+                <br><br>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+        </form>
+
+    </section>
+
+    <br class="fixFloat">
+
+    <footer>
+        <p>Layout Curso de Inglês</p>
+        <p>Canal Fessor Bruno</p>
+        <p>www.cfbcursos.com.br</p>
+    </footer>
+
+</body>
+</html>
