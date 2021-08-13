@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galeria.css">
+    <title>Galeria Filtrável</title>
+</head>
+<body>
+
+<section class="galeria">
+    <header id="cabecalhoGaleria">
+        <button class="btn ativo"  onclick="gerenciarImagens('tudo')">Tudo</button>
+        <button class="btn" onclick="gerenciarImagens('c1')">RPG</button>
+        <button class="btn" onclick="gerenciarImagens('c2')">LUTA</button>
+        <button class="btn" onclick="gerenciarImagens('c3')">CORRIDA</button>
+    </header>
+
+    <article class="imagens">
+        <img src="img_capas_jogos/final-fantasy-vii-cover-cloud-box-artwork-ps1.jpg" class="img c1">
+        <img src="img_capas_jogos/grandia.jpg" class="img c1">
+        <img src="img_capas_jogos/52414-Tekken_3_E-1.jpg" class="img c2">
+        <img src="img_capas_jogos/rival-s-capa-jogo-1.jpg" class="img c2">
+        <img src="img_capas_jogos/Capa_CTR_Crash_Team_Racing_Dublado_E_Legendado.png" class="img c3">
+        <img src="img_capas_jogos/download.jpg" class="img c3" style="width: 100%;">
+    </article>
+</section>
+    
+<script src="galeria.js"></script>
+
+</body>
+</html>
