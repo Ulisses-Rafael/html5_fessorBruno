@@ -1,0 +1,4 @@
+body{
+  /*  background:#aaa url(../img/logo.jpg) repeat-x 0px 0px / 150px; */
+    background:#aaa url(../img/logo.jpg) no-repeat center 10px / 150px; 
+}
