@@ -1,0 +1,6 @@
+body{
+    background-image:url(img/baa39c269e4680c80feeade039831623.jpg), url(img/c1906b145bd7e4c77ed0781102f8d4d1--chrono-cross-crosses.jpg); /*imagem de fundo. pode se usar color também*/
+    background-repeat:no-repeat, repeat; /*repetição da imagem, sem repetição, com repetição, repetir no eixo x, repetir no eixo y*/
+    background-size:400px, 200px;
+    background-attachment: scroll, fixed; /*possibilidade de fazer com que a imagem role junto com o scroll ou deixar fixa*/
+}
