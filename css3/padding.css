@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+}
+
+div{
+    border:firebrick solid 1px;
+    width:500px;
+    margin: auto;
+    margin-bottom:50px;
+}
+
+#dv1{
+    padding:50px 0px 150px 200px;
+}
+
+#dv2{
+    padding:50px;
+}

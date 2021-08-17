@@ -1,0 +1,36 @@
+#dv1{
+    width:100px;
+    height:100px;
+    border:firebrick solid 1px;
+    background:linear-gradient(to right,#0f0,#00f);
+    /*variação linear do gradiente (direção, 1 cor, 2 cor)*/
+    /*por ângulo(define o ângulo com "número"+deg*/
+}
+
+#dv2{
+    width:100px;
+    height:100px;
+    border:firebrick solid 1px;
+    background:radial-gradient(#0f0,#00f);
+}
+
+#dv3{
+    width:600px;
+    height:100px;
+    border:firebrick solid 1px;
+    background:repeating-linear-gradient(90deg,#0f0 0%,#00f 20%);
+}
+
+#dv4{
+    width:600px;
+    height:100px;
+    border:firebrick solid 1px;
+    background:repeating-radial-gradient(circle,#0f0 0%,#00f 20%);
+}
+
+h1{
+    font-size:80px;
+    background:linear-gradient(90deg,#0f0 0%, #00f 35%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+}
