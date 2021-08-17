@@ -1,0 +1,40 @@
+/*
+@font-face{
+    font-family:;
+    src:url();
+    posso enviar o arquivo da fonte definindo o caminho do arquivo
+}
+*/
+p{
+    margin-top:50px;
+    font-family:Lobster;
+    font-style:italic;
+    font-weight:bold;  
+    font-size:20px;
+    font-variant:normal;/*small-caps;todas as letras maiúsculas e as letras miúsculas aumentam de tamanho tbm*/
+}
+/*
+a:link{
+    NÃO VISITADOS
+
+a:visited
+    JÁ VISITADOS
+
+a:active{
+    ESTÃO SENDO VISITADOS
+
+a:hover{
+    SOBRE O LINK */
+
+a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    background: gray;
+    padding:20px;
+}
+
+a:hover{
+    color:fuchsia;
+    background: indigo;
+}
