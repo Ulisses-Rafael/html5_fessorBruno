@@ -1,0 +1,51 @@
+h1{
+    font-size:50pt;
+    color:firebrick;
+    text-shadow:10px 10px 10px #bbb;
+    /*parametros(alinhamento em x, alinhamento em y transparência e cor da sombra)*/
+}
+
+div{
+    width:200px;
+    height:200px;
+    text-align: center;
+    border:rgb(252, 5, 5) solid 1px;
+    box-shadow: 10px 10px 5px rgb(243, 9, 9);
+    /*distanciamento vertical horizontal transparencia e cor*/
+}
+
+p{
+    color:rgb(70, 57, 63);
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 50px; /*recuo da primeira linha do parágrafo*/
+    letter-spacing: 1px; /*espaço entre as letras*/
+    line-height: 2; /*espaçamento "altura" entre as linhas*/
+    direction:ltr; /*direção do texto  left to right ou right to left*/
+    word-spacing: 10px; /*espaçamento entre as palavras*/
+    text-align-last:center; /*comportamento do alinhamento do último parágrafo*/
+}
+
+.p1{
+}
+
+.p2{
+}
+
+.p3{
+}
+
+.p4{
+}
+
+a{
+    text-decoration:none;
+}
+
+.txt{
+    width:200px;
+    height:100px;
+    border:hotpink solid 1px;
+    white-space: normal; /*comportamento do texto dentro de um container (nowrap=sem quebra, normal=quebra de linha dentro do container)*/
+    overflow: auto; /*disponibiliza uma barra de rolagem para o texto que passa do container;;; scroll mostra as duas barras auto mostra só as necessárias*/
+}
