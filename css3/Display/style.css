@@ -1,0 +1,26 @@
+div, span{
+    border:indigo solid 1px;
+    margin:10px;
+}
+
+#d1{
+    /*display:none;não redenriza
+
+    visibility:hidden;esconde , mas mantém seu espaço
+
+    display:block; padrão, ocupa toda área disponível na linha*/
+}
+
+#s1{
+    /*Span por padrão tem seu display-inline, que não permite configurar tamanho.
+    
+    display:inline-block: permite elementos na mesma linha e permite adicionar tamanho*/
+}
+
+#d2{
+
+}
+
+#s2{
+
+}
