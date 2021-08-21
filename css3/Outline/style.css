@@ -1,0 +1,27 @@
+div{
+    float:left;
+    width:200px;
+    height:200px;
+    background-color: gray;
+    outline:hotpink solid 10px;
+}
+/*
+#d1{
+    margin-right: 0px;
+    outline-color:#f00;
+    outline-style:solid;
+    outline-width:40px;
+/*Propriedade do outline funciona como uma borda porém ela não acrescenta o valor no elemento, ou seja ela não empurra o outro elemento e sim fica na camada atrás
+}
+
+#d2{
+    width:400px;
+    height:400px;
+}
+/*Um exemplo da utilização é por exemplo quando se quer colocar uma margem sem mudar o tamanho do elemento*/
+
+.ofset{
+    position:absolute;
+    margin: 400px;
+    outline-offset: 10px; /*desloca a borda com a margem interna do elemento*/
+}
