@@ -1,0 +1,17 @@
+section{
+    border:firebrick solid 3px;
+    display:flex;
+    display:-webkit-flex; /*versão antiga de navegadores
+    -webkit-flex-wrap; -moz-flex-wrap;
+    */
+    display:-moz-flex;
+    flex-wrap:nowrap; /*elementos sem quebra de linha*/
+    /*wrap o elemento quebra pra linha de baixo*/
+}
+
+div{
+    border:black solid 1px;
+   /* flex:1; o elemento ocupa o container*/
+   width:100px;
+}
+
