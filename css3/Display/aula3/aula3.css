@@ -1,0 +1,53 @@
+section{
+    border:firebrick solid 3px;
+    /*height:300px;*/
+    display:flex;
+    flex-wrap:wrap;
+    /*Quebra de linha*/
+
+    justify-content:center; 
+    /*Alinhamento horizontal*/
+
+    align-items: center;
+    /*Alinhamento vertical*/
+
+    /*direção dos elementos row é linha e column coluna*/
+    flex-direction: row;
+}
+
+div{
+    border:black solid 1px;
+    /*width:100px;
+    flex:1; /*Os elementos do container vão se ajustar ao elemento pai em largura não precisando configurá-los*/
+    height:50px;
+    /*flex-grow: elemento vai esticar ou não 0 ou 1;*/
+    /*flex-shrink:; capacidade de contrair o elemento 0 ou 1
+    flex-basis: ;*/
+}
+
+#d1{
+    order:1;/*ordem dos elementos dentro do seu container*/
+    width:100px;
+    flex-grow: 1;/*esse elemento dentro do container irá ocupar espaços vazios*/
+}
+#d2{
+    order:2;
+    width:100px;
+    flex-basis: 20%; /*Aqui você especifica qual a porcentagem dentro do container que o elemento irá ocupar*/
+}
+#d3{
+    order:3;
+    width:100px;
+}
+#d4{
+    order:4;
+    width:100px;
+}
+#d5{
+    order:5;
+    width:100px;
+}
+#d6{
+    order:6;
+    width:100px;
+}
