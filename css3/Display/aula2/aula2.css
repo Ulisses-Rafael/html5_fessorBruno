@@ -5,13 +5,13 @@ section{
     -webkit-flex-wrap; -moz-flex-wrap;
     */
     display:-moz-flex;
-    flex-wrap:nowrap; /*elementos sem quebra de linha*/
+    flex-wrap:wrap; /*elementos sem quebra de linha*/
     /*wrap o elemento quebra pra linha de baixo*/
 }
 
 div{
     border:black solid 1px;
-   /* flex:1; o elemento ocupa o container*/
-   width:100px;
+    /*flex:1;o elemento ocupa o container*/
+   /*width:100px;*/
 }
 
