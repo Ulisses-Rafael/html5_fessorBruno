@@ -1,0 +1,33 @@
+p::before{
+    content:"cfb - ";
+    color:red;
+}
+
+p::after{
+    content:"- img";
+    color:blueviolet;
+}
+
+p{
+    font-size:60px;
+}
+
+h2{
+    font-size:30px;
+    color:black;
+}
+
+h2::first-letter{
+    font-size:50px;
+    color:cornflowerblue
+}
+
+h2::first-line{
+    background-color: yellow;
+}
+
+/*Permite alterar a cor do texto e o fundo do texto no momento da seleção*/
+::selection{
+    color:teal;
+    background-color: thistle;
+}
