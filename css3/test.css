@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgba(215, 188, 240, 0.986);
+}
+
+aside{
+    border:black solid 1px;
+    position:fixed;
+    width:15%;
+    height:100%;
+    background-color:blueviolet;
+}
+
+aside img{
+    border:cyan solid 1px;
+    width:100px;
+    height:100px;
+    margin-top:200px;
+    margin-left:50px;
+    border-radius:50%;
+    margin-bottom: 40px;
+}
+
+aside h2{
+    margin: 10px 0px 0px 20px;
+    font-size: 16pt;
+    color:rgb(2, 253, 253);
+}
+
+aside h2:hover{
+    color:black;
+}
+
+main, footer{
+    float:right;
+    width:85%;
+    display:flex;
+    flex-direction:column;  
+}
+
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p{
+    margin: 10px 20px 10px 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+section h1{
+    margin-top: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:blueviolet;
+}
+
+footer p{
+    text-align: center;
+    color:white;
+}
+
+footer{
+    height:200px;
+    background-color:rgba(0,0,0,0.8);
+    justify-content: center;
+}
