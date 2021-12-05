@@ -60,24 +60,34 @@
         }else{
             document.write("Você é menor de idade!")
         }
-*/
+
         var curso=prompt("Digite qual curso vc tem interesse");
 
         if(curso=="Java"){
             document.write("Curso de Java no valor de 1500")
         } 
-        if(curso=="JavaScript"){
+        else if(curso=="JavaScript"){
             document.write("Curso de JavaScript no valor de 2000")
         }
-        if(curso=="Css+Html"){
+        else if(curso=="Css+Html"){
             document.write("Curso de Css + Html no valor de 1000")
         }
         else{
             document.write("No mommento não estamos com esse curso em aberto, em breve entrara na grade!")
+        }*/
+
+        var nota=prompt("Digite sua nota:");
+        var res;
+
+        if(nota>=60){
+            res="Aprovado!"
+        }else if(nota>=40 && nota<60){
+            res="Recuperação!"
+        }else{
+            res="Reprovado!"
         }
-
-
         
+        document.write(res);
 
     </script>
 </head>
